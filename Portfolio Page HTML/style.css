@@ -100,7 +100,7 @@ section #Resume h1 {
   margin-top: 3em;
 }
 
-section .ResumeSkills .ResumeEducation h5 {
+section .ResumeSkills h5 {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -135,5 +135,45 @@ section .ResumeSkills .ResumeEducation .EducationList .UniversityName {
 
 section .ResumeSkills .ResumeEducation .EducationList .DateEducation {
   color: #999;
+}
+
+section .ResumeSkills .Skills .progress {
+  margin-bottom: 10px;
+}
+
+#Projects {
+  padding-bottom: 30px;
+}
+
+#Projects h3 {
+  margin: 20px;
+  color: #6d56c1;
+}
+
+#Projects .Proje {
+  -webkit-box-shadow: 9px 6px 7px #6d56c136;
+          box-shadow: 9px 6px 7px #6d56c136;
+  cursor: pointer;
+}
+
+#Projects .Proje .ProjeInf h1 {
+  font-family: Roboto Mono, monospace;
+}
+
+#Projects .Proje .ProjeInf .Stac ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Projects .Proje .ProjeInf .Stac ul li {
+  padding-right: 10px;
+  list-style: none;
+  text-decoration: none;
+  opacity: .7;
+  border: 2px solid #6d56c1;
+  padding: 2px;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

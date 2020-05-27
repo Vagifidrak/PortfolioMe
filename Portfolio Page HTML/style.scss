@@ -106,17 +106,18 @@ section {
     }
 
     .ResumeSkills {
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 20px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            color: #999;
+            margin: 10px;
+        }
 
         .ResumeEducation {
-            h5 {
-                text-transform: uppercase;
-                letter-spacing: 5px;
-                font-size: 20px;
-                letter-spacing: 5px;
-                font-weight: 600;
-                color: #999;
-                margin: 10px;
-            }
+
 
             .EducationList {
                 border-left: 2px solid #6d56c1;
@@ -142,6 +143,52 @@ section {
 
                 .DateEducation {
                     color: #999;
+                }
+            }
+        }
+
+        .Skills {
+            .progress {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+#Projects {
+    padding-bottom: 30px;
+
+    h3 {
+        margin: 20px;
+        color: #6d56c1;
+    }
+
+    .Proje {
+        box-shadow: 9px 6px 7px #6d56c136;
+        cursor: pointer;
+
+        .ProjeInf {
+
+            h1 {
+                font-family: Roboto Mono,
+                    monospace;
+            }
+
+            .Stac {
+
+                ul {
+                    display: flex;
+
+                    li {
+                        padding-right: 10px;
+                        list-style: none;
+                        text-decoration: none;
+                        opacity: .7;
+                        border: 2px solid #6d56c1;
+                        padding: 2px;
+                        border-radius: 5px;
+                        margin-right: 10px;
+                    }
                 }
             }
         }

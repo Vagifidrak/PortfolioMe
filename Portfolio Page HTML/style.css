@@ -1,0 +1,139 @@
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(54deg, rgba(74, 76, 179, 0.884) 34%, rgba(206, 156, 156, 0.925));
+  width: 100%;
+  height: 35em;
+}
+
+header #Navigation {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.14);
+  z-index: 1;
+}
+
+header #Navigation .NavSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+}
+
+header #Navigation .NavSection li {
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 80px;
+  list-style: none;
+}
+
+header #Navigation .NavSection li a {
+  color: #001233;
+  text-decoration: none;
+}
+
+header #Biography .BioImg {
+  position: relative;
+  margin-top: 40px;
+  border-radius: 15px;
+  top: 90px;
+}
+
+header #Biography .BiographyInfo {
+  padding-top: 100px;
+}
+
+header #Biography .BiographyInfo .PortfolioName {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #001233;
+}
+
+header #Biography .BiographyInfo .PortfolioWork {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+header #Biography .BiographyInfo .BioList {
+  font-size: 20px;
+  opacity: .8;
+}
+
+header #Biography .BiographyInfo .BioList dl {
+  float: left;
+  color: #fff;
+  font-weight: 700;
+}
+
+header #Biography .BiographyInfo .SosialIcon {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+}
+
+header #Biography .BiographyInfo .SosialIcon P {
+  margin-left: 10px;
+}
+
+header #Biography .BiographyInfo .SosialIcon P a {
+  opacity: .7;
+  color: #001233;
+}
+
+header #Biography .BiographyInfo .SosialIcon P a:hover {
+  -webkit-transition: .7s;
+  transition: .7s;
+  opacity: 1;
+}
+
+section {
+  font-family: Roboto Mono, monospace;
+}
+
+section #Resume h1 {
+  color: #001233;
+  margin-top: 3em;
+}
+
+section .ResumeSkills .ResumeEducation h5 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #999;
+  margin: 10px;
+}
+
+section .ResumeSkills .ResumeEducation .EducationList {
+  border-left: 2px solid #6d56c1;
+  opacity: .9;
+  padding-left: 2rem;
+}
+
+section .ResumeSkills .ResumeEducation .EducationList ::before {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #6d56c1;
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  background-color: #fff;
+  left: 98px;
+}
+
+section .ResumeSkills .ResumeEducation .EducationList .UniversityName {
+  color: #6d56c1;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+section .ResumeSkills .ResumeEducation .EducationList .DateEducation {
+  color: #999;
+}
+/*# sourceMappingURL=style.css.map */
